@@ -1,0 +1,135 @@
+@import url(https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,900,700);
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(https://fonts.googleapis.com/css?family=Orbitron:400,500);
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('img/fondo.jpg');
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: center;
+}
+
+#backg {
+  padding: 20px;
+}
+
+#mainW {
+  margin-top: 20px;
+  background-color: #8AA88A;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#contJ {
+  background-color: #F5FAF5;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+#logo {
+  max-width: 200px;
+}
+
+#generadas {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.5em;
+  margin: auto;
+}
+
+#botonGenera {
+  background-color: #A0D9A4;
+  font-size: 140%;
+  font-weight: 900;
+  font-family: 'Indie Flower', cursive;
+  color: #1B291B;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+h4 {
+  font-family: 'Cinzel Decorative', cursive;
+  font-weight: 700;
+  font-size: 140%;
+  color: #000000;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  #mainW {
+    margin-top: 20vh;
+    padding: 20px;
+  }
+
+  #logo {
+    max-width: 200px;
+  }
+
+  #generadas {
+    font-size: 1.5em;
+  }
+
+  #botonGenera {
+    font-size: 130%;
+    padding: 10px 20px;
+  }
+
+  h4 {
+    font-size: 130%;
+  }
+}
+
+@media (max-width: 768px) {
+  #mainW {
+    margin-top: 30vh;
+    padding: 15px;
+  }
+
+  #logo {
+    max-width: 150px;
+  }
+
+  #generadas {
+    font-size: 1.2em;
+  }
+
+  #botonGenera {
+    font-size: 120%;
+    padding: 8px 16px;
+  }
+
+  h4 {
+    font-size: 120%;
+  }
+}
+
+@media (max-width: 480px) {
+  #mainW {
+    margin-top: 30vh;
+    padding: 10px;
+  }
+
+  #logo {
+    max-width: 100px;
+  }
+
+  #generadas {
+    font-size: 1em;
+  }
+
+  #botonGenera {
+    font-size: 100%;
+    padding: 6px 12px;
+  }
+
+  h4 {
+    font-size: 100%;
+  }
+}
