@@ -30,10 +30,10 @@ var genera = function() {
     return jugada;
 }
 
-//Al hacer click en el boton, agragara los numeros en el parrafo con el id "generadas"
+//Al hacer click en el boton, agragara los numeros en el parrafo con el id "numGen"
 $(document).ready(function() {
     $("#botonGenera").click(function() {
         var jugada = genera();
-        $("#generadas").text(jugada);
+        $("#numGen").text(jugada);
     });
 });
